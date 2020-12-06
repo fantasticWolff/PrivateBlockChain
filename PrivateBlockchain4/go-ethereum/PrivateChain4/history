@@ -2,3 +2,7 @@ personal.listAccounts
 net.peerCount
 miner.start(1)
 net.peerCount
+miner.start(1)
+personal.listAccounts
+net.listening
+admin.peers

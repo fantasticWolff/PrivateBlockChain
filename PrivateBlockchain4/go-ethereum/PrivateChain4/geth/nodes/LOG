@@ -34,3 +34,78 @@
 10:49:40.231336 table@remove removed @6
 15:24:07.489052 db@close closing
 15:24:07.489185 db@close done T·131.905µs
+=============== Dec 6, 2020 (CST) ===============
+16:00:06.173065 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:00:06.193651 version@stat F·[0 1] S·870B[0B 870B] Sc·[0.00 0.00]
+16:00:06.193699 db@open opening
+16:00:06.193860 journal@recovery F·1
+16:00:06.194394 journal@recovery recovering @7
+16:00:06.481666 memdb@flush created L0@10 N·38894 S·349KiB "n:\x87..:v4,v200846":"n:\xcf..ong,v162094"
+16:00:06.486543 version@stat F·[1 1] S·350KiB[349KiB 870B] Sc·[0.25 0.00]
+16:00:06.492423 db@janitor F·4 G·0
+16:00:06.492438 db@open done T·298.710609ms
+16:01:08.316705 table@compaction L0·1 -> L1·1 S·350KiB Q·201000
+16:01:08.326575 table@build created L1@13 N·16 S·877B "loc..seq,v2":"version,v1"
+16:01:08.326613 version@stat F·[0 1] S·877B[0B 877B] Sc·[0.00 0.00]
+16:01:08.328955 table@compaction committed F-1 S-349KiB Ke·0 D·38893 T·12.223613ms
+16:01:08.329092 table@remove removed @9
+=============== Dec 6, 2020 (CST) ===============
+16:02:17.446880 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:02:17.447041 version@stat F·[0 1] S·877B[0B 877B] Sc·[0.00 0.00]
+16:02:17.447054 db@open opening
+16:02:17.447081 journal@recovery F·1
+16:02:17.447530 journal@recovery recovering @11
+16:02:17.450406 memdb@flush created L0@14 N·231 S·2KiB "loc..seq,v200856":"n:\xcf..ong,v200886"
+16:02:17.450912 version@stat F·[1 1] S·3KiB[2KiB 877B] Sc·[0.25 0.00]
+16:02:17.450971 backup CURRENT: open /home/wolff/Desktop/PrivateBlockchain/PrivateBlockchain4/go-ethereum/PrivateChain4/geth/nodes/CURRENT.bak: permission denied
+16:02:17.451005 commit@abandon useless vid D2
+=============== Dec 6, 2020 (CST) ===============
+16:02:43.224029 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:02:43.224188 version@stat F·[0 1] S·877B[0B 877B] Sc·[0.00 0.00]
+16:02:43.224201 db@open opening
+16:02:43.224251 journal@recovery F·2
+16:02:43.224769 journal@recovery recovering @11
+16:02:43.224907 journal@recovery recovering @15
+16:02:43.227178 memdb@flush created L0@16 N·231 S·2KiB "loc..seq,v200856":"n:\xcf..ong,v200886"
+16:02:43.227197 version@stat F·[1 1] S·3KiB[2KiB 877B] Sc·[0.25 0.00]
+16:02:43.235481 version@stat F·[1 1] S·3KiB[2KiB 877B] Sc·[0.25 0.00]
+16:02:43.278303 db@janitor F·6 G·2
+16:02:43.278319 db@janitor removing table-14
+16:02:43.278340 db@janitor removing table-10
+16:02:43.278386 db@open done T·54.180888ms
+16:03:28.105945 table@compaction L0·1 -> L1·1 S·3KiB Q·201205
+16:03:28.134272 table@build created L1@19 N·17 S·931B "loc..seq,v200856":"version,v1"
+16:03:28.134316 version@stat F·[0 1] S·931B[0B 931B] Sc·[0.00 0.00]
+16:03:28.187242 table@compaction committed F-1 S-2KiB Ke·0 D·230 T·81.25622ms
+16:03:28.187317 table@remove removed @13
+16:04:56.387126 db@close closing
+16:04:56.387192 db@close done T·65.652µs
+=============== Dec 6, 2020 (CST) ===============
+16:05:38.419086 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:05:38.419170 version@stat F·[0 1] S·931B[0B 931B] Sc·[0.00 0.00]
+16:05:38.419179 db@open opening
+16:05:38.419231 journal@recovery F·1
+16:05:38.419744 journal@recovery recovering @18
+16:05:38.422806 memdb@flush created L0@20 N·307 S·3KiB "loc..seq,v201088":"n:\xcf..ong,v201174"
+16:05:38.423384 version@stat F·[1 1] S·4KiB[3KiB 931B] Sc·[0.25 0.00]
+16:05:38.423462 backup CURRENT: open /home/wolff/Desktop/PrivateBlockchain/PrivateBlockchain4/go-ethereum/PrivateChain4/geth/nodes/CURRENT.bak: permission denied
+16:05:38.423512 commit@abandon useless vid D2
+=============== Dec 6, 2020 (CST) ===============
+16:06:55.741716 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:06:55.741837 version@stat F·[0 1] S·931B[0B 931B] Sc·[0.00 0.00]
+16:06:55.741853 db@open opening
+16:06:55.741884 journal@recovery F·2
+16:06:55.742446 journal@recovery recovering @18
+16:06:55.742702 journal@recovery recovering @21
+16:06:55.744644 memdb@flush created L0@22 N·307 S·3KiB "loc..seq,v201088":"n:\xcf..ong,v201174"
+16:06:55.744666 version@stat F·[1 1] S·4KiB[3KiB 931B] Sc·[0.25 0.00]
+16:06:55.750292 version@stat F·[1 1] S·4KiB[3KiB 931B] Sc·[0.25 0.00]
+16:06:55.761651 db@janitor F·6 G·2
+16:06:55.761669 db@janitor removing table-20
+16:06:55.761714 db@janitor removing table-16
+16:06:55.761781 db@open done T·19.923602ms
+16:07:15.411227 table@compaction L0·1 -> L1·1 S·4KiB Q·201449
+16:07:15.414207 table@build created L1@25 N·17 S·950B "loc..seq,v201088":"version,v1"
+16:07:15.414264 version@stat F·[0 1] S·950B[0B 950B] Sc·[0.00 0.00]
+16:07:15.415918 table@compaction committed F-1 S-3KiB Ke·0 D·307 T·4.672742ms
+16:07:15.415967 table@remove removed @19
