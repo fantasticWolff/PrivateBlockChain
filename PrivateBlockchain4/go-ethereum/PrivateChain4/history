@@ -1,0 +1,4 @@
+personal.listAccounts
+net.peerCount
+miner.start(1)
+net.peerCount

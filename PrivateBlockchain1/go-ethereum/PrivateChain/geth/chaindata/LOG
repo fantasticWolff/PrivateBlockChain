@@ -1,0 +1,44 @@
+=============== Dec 5, 2020 (CST) ===============
+14:53:20.870667 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:53:20.878526 db@open opening
+14:53:20.878911 version@stat F·[] S·0B[] Sc·[]
+14:53:20.881694 db@janitor F·2 G·0
+14:53:20.881734 db@open done T·3.171423ms
+14:53:20.882298 db@close closing
+14:53:20.882318 db@close done T·19.014µs
+=============== Dec 5, 2020 (CST) ===============
+14:55:03.014543 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:55:03.014614 version@stat F·[] S·0B[] Sc·[]
+14:55:03.014628 db@open opening
+14:55:03.014657 journal@recovery F·1
+14:55:03.015903 journal@recovery recovering @1
+14:55:03.030729 memdb@flush created L0@2 N·12 S·797B ":\x02p..\xa5\xb1K,v2":"sec..[\xf5\xd0,v1"
+14:55:03.031952 version@stat F·[1] S·797B[797B] Sc·[0.25]
+14:55:03.037161 db@janitor F·3 G·0
+14:55:03.037177 db@open done T·22.543065ms
+15:04:56.122189 db@close closing
+15:04:56.122222 db@close done T·33.203µs
+=============== Dec 5, 2020 (CST) ===============
+15:05:51.074739 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:05:51.074847 version@stat F·[1] S·797B[797B] Sc·[0.25]
+15:05:51.074863 db@open opening
+15:05:51.074898 journal@recovery F·1
+15:05:51.076418 journal@recovery recovering @3
+15:05:51.087265 memdb@flush created L0@5 N·1 S·192B "Dat..ion,v14":"Dat..ion,v14"
+15:05:51.088996 version@stat F·[2] S·989B[989B] Sc·[0.50]
+15:05:51.095203 db@janitor F·4 G·0
+15:05:51.095241 db@open done T·20.354627ms
+15:10:47.741795 db@close closing
+15:10:47.741833 db@close done T·37.948µs
+=============== Dec 5, 2020 (CST) ===============
+15:11:38.398614 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:11:38.398842 version@stat F·[2] S·989B[989B] Sc·[0.50]
+15:11:38.398858 db@open opening
+15:11:38.398888 journal@recovery F·1
+15:11:38.400150 journal@recovery recovering @6
+15:11:38.403381 version@stat F·[2] S·989B[989B] Sc·[0.50]
+15:11:38.426824 db@janitor F·4 G·0
+15:11:38.426896 db@open done T·28.025433ms
+=============== Dec 6, 2020 (CST) ===============
+15:24:09.907311 db@close closing
+15:24:09.907368 db@close done T·55.128µs

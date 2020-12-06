@@ -1,0 +1,36 @@
+=============== Dec 5, 2020 (CST) ===============
+16:19:05.773665 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:19:05.785883 db@open opening
+16:19:05.787755 version@stat F·[] S·0B[] Sc·[]
+16:19:05.791978 db@janitor F·2 G·0
+16:19:05.792002 db@open done T·6.083415ms
+22:33:18.659782 memdb@flush N·54018 S·3MiB
+22:33:18.706428 memdb@flush created L0@3 N·54018 S·485KiB "loc..seq,v2":"version,v1"
+22:33:18.706472 version@stat F·[1] S·485KiB[485KiB] Sc·[0.25]
+22:33:18.708415 memdb@flush committed F·1 T·48.599288ms
+22:33:18.709147 journal@remove removed @1
+=============== Dec 6, 2020 (CST) ===============
+04:42:27.336572 memdb@flush N·53952 S·3MiB
+04:42:27.373352 memdb@flush created L0@5 N·53952 S·486KiB "n:\x87..:v4,v107845":"n:\xcf..ong,v54021"
+04:42:27.373395 version@stat F·[2] S·972KiB[972KiB] Sc·[0.50]
+04:42:27.375212 memdb@flush committed F·1 T·38.597939ms
+04:42:27.375785 journal@remove removed @2
+04:42:40.385030 table@compaction L0·2 -> L1·0 S·972KiB Q·108006
+04:42:40.421558 table@build created L1@6 N·15 S·863B "loc..seq,v2":"version,v1"
+04:42:40.421606 version@stat F·[0 1] S·863B[0B 863B] Sc·[0.00 0.00]
+04:42:40.423758 table@compaction committed F-1 S-971KiB Ke·0 D·107955 T·38.701389ms
+04:42:40.423863 table@remove removed @5
+04:42:40.423925 table@remove removed @3
+10:49:15.149597 memdb@flush N·53990 S·3MiB
+10:49:15.192474 memdb@flush created L0@8 N·53990 S·487KiB "n:\x87..:v4,v161858":"n:\xcf..ong,v107986"
+10:49:15.192513 version@stat F·[1 1] S·487KiB[487KiB 863B] Sc·[0.25 0.00]
+10:49:15.194304 memdb@flush committed F·1 T·44.670923ms
+10:49:15.194888 journal@remove removed @4
+10:49:40.219170 table@compaction L0·1 -> L1·1 S·487KiB Q·162019
+10:49:40.229456 table@build created L1@9 N·15 S·870B "loc..seq,v2":"version,v1"
+10:49:40.229495 version@stat F·[0 1] S·870B[0B 870B] Sc·[0.00 0.00]
+10:49:40.231216 table@compaction committed F-1 S-487KiB Ke·0 D·53990 T·12.017174ms
+10:49:40.231315 table@remove removed @8
+10:49:40.231336 table@remove removed @6
+15:24:07.489052 db@close closing
+15:24:07.489185 db@close done T·131.905µs

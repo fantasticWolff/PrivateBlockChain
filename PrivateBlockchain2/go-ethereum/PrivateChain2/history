@@ -1,0 +1,12 @@
+admin.addPeer("enode://0d5a01efa9fb29d0c82e2803355169eeb605617eb4b61d5dedc70f0468b07828a7c7223a29ab6f85cb3543d4e12226d7e723e8d82b93c3ff6ebfc3dee3ff9081@127.0.0.1:30305")
+miner.start(1)
+miner.stop()
+eth.blockNumber
+eth.getBalance(eth.accounts[0])
+personal.listAccounts
+var tx = {from: "0x1ece3cfe71db9211dee1f405d662f666220e30e9", to: "0xc0f4895cbadedd83566a5ce78560af1d2c420a24", value: web3.toWei(0.01, "ether")}
+eth.getBalance(eth.accounts[0])
+miner.start(1)
+net.peerCount
+miner.stop()
+net.peerCount

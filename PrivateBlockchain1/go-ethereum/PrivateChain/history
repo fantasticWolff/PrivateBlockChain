@@ -1,0 +1,14 @@
+eth.getBlock(0)
+admin.nodeInfo
+admin.addPeer("enode://5c025d4ed17c7ba96720857f36a86fc063115b53e4d734be14662acc4e7d552e818250b3eba45c1e1810af64c31544995f8ab2b2b9be2abea23ecf1ccdfe4d64@127.0.0.1:30304")
+admin.peers
+admin.nodeInfo
+eth.blockNumber
+eth.getBalance(eth.accounts[0])
+personal.listAccounts
+eth.coinbase
+eth.getBalance(eth.accounts[0])
+miner.start(1)
+net.peerCount
+miner.stop()
+net.peerCount

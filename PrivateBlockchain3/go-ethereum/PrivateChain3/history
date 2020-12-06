@@ -1,0 +1,14 @@
+
+admin.peers
+admin.nodeInfo
+miner.start(1)miner.start(1)miner.start(1)
+miner.start(1)
+eth.blockNumber
+eth.getBalance(eth.accounts[0])
+admin.nodeInfo
+personal.listAccounts
+admin.nodeInfo
+eth.getBalance(eth.accounts[0])
+miner.stop()
+admin.peers
+net.peerCount
